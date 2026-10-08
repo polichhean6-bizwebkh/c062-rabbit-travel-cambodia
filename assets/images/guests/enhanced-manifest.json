@@ -1,0 +1,177 @@
+[
+  {
+    "source": "ChatGPT Image Oct 2, 2026, 09_07_49 PM-1.png",
+    "name": "family-memories",
+    "previousGuestNumber": 7,
+    "variants": [
+      {
+        "file": "family-memories-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 58366
+      },
+      {
+        "file": "family-memories-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 149422
+      },
+      {
+        "file": "family-memories-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 236868
+      }
+    ]
+  },
+  {
+    "source": "ChatGPT Image Oct 2, 2026, 09_07_52 PM-2.png",
+    "name": "palace-guests",
+    "previousGuestNumber": 5,
+    "variants": [
+      {
+        "file": "palace-guests-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 38038
+      },
+      {
+        "file": "palace-guests-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 99198
+      },
+      {
+        "file": "palace-guests-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 170090
+      }
+    ]
+  },
+  {
+    "source": "ChatGPT Image Oct 2, 2026, 09_07_55 PM-3.png",
+    "name": "guide-countryside",
+    "previousGuestNumber": 6,
+    "variants": [
+      {
+        "file": "guide-countryside-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 42062
+      },
+      {
+        "file": "guide-countryside-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 117022
+      },
+      {
+        "file": "guide-countryside-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 188936
+      }
+    ]
+  },
+  {
+    "source": "ChatGPT Image Oct 2, 2026, 09_07_59 PM-4.png",
+    "name": "monk-blessing",
+    "previousGuestNumber": 3,
+    "variants": [
+      {
+        "file": "monk-blessing-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 91372
+      },
+      {
+        "file": "monk-blessing-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 250394
+      },
+      {
+        "file": "monk-blessing-1086.webp",
+        "width": 1086,
+        "height": 1448,
+        "bytes": 287320
+      }
+    ]
+  },
+  {
+    "source": "ChatGPT Image Oct 2, 2026, 09_08_02 PM-5.png",
+    "name": "airport-welcome",
+    "previousGuestNumber": 1,
+    "variants": [
+      {
+        "file": "airport-welcome-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 41164
+      },
+      {
+        "file": "airport-welcome-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 106720
+      },
+      {
+        "file": "airport-welcome-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 174818
+      }
+    ]
+  },
+  {
+    "source": "ChatGPT Image Oct 2, 2026, 09_08_05 PM-6.png",
+    "name": "temple-discovery",
+    "previousGuestNumber": 2,
+    "variants": [
+      {
+        "file": "temple-discovery-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 91772
+      },
+      {
+        "file": "temple-discovery-960.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 262080
+      },
+      {
+        "file": "temple-discovery-1086.webp",
+        "width": 1086,
+        "height": 1448,
+        "bytes": 307384
+      }
+    ]
+  },
+  {
+    "source": "ChatGPT Image Oct 2, 2026, 09_08_09 PM-7.png",
+    "name": "shrine-guests",
+    "previousGuestNumber": null,
+    "variants": [
+      {
+        "file": "shrine-guests-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 69192
+      },
+      {
+        "file": "shrine-guests-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 212020
+      },
+      {
+        "file": "shrine-guests-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 360418
+      }
+    ]
+  }
+]

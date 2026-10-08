@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.bizwebkh.com/c062-rabbit-travel-cambodia-READY/sitemap.xml

@@ -1,0 +1,17 @@
+/* Destination controls overlay the existing cards without changing their layout. */
+.landmark-open{position:absolute;inset:0;z-index:3;width:100%;height:100%;border:0;border-radius:inherit;background:transparent;color:white;text-align:inherit;padding:0}
+.landmark-open:focus-visible{outline:3px solid var(--gold);outline-offset:-5px}
+.landmark-hint{position:absolute;right:15px;top:15px;display:flex;align-items:center;gap:7px;padding:7px 10px;border-radius:6px;background:#15352ec9;font:12px/1.4 Arial,sans-serif;backdrop-filter:blur(5px)}
+.landmark-hint svg{width:17px;height:17px}.landmark-hint-text{max-width:0;overflow:hidden;white-space:nowrap;opacity:0;transition:max-width .2s,opacity .2s}
+.landmark:hover .landmark-hint-text,.landmark:focus-within .landmark-hint-text{max-width:90px;opacity:1}
+.destination-dialog{width:min(1080px,calc(100% - 32px));max-width:1080px;max-height:92svh;padding:20px;border-radius:18px;overflow:auto;background:var(--cream)}
+.destination-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}.destination-heading h2{font-size:30px;letter-spacing:-.7px;margin:0;line-height:1.15}
+.destination-close{display:grid;place-items:center;flex:none;width:44px;height:44px;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--green);font-size:28px;line-height:1}
+.destination-stage{position:relative;height:min(62svh,650px);min-height:200px;background:#112e27;border-radius:12px;overflow:hidden;touch-action:pan-y pinch-zoom;user-select:none}
+.destination-image{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block;-webkit-user-drag:none}.destination-image:not([src]){visibility:hidden}
+.destination-prev,.destination-next{position:absolute;top:50%;transform:translateY(-50%);display:grid;place-items:center;width:46px;height:46px;border:1px solid #ffffff60;border-radius:50%;background:#15352edb;color:white;font:32px/1 Georgia,serif;z-index:2}
+.destination-prev{left:12px}.destination-next{right:12px}.destination-prev:hover,.destination-next:hover{background:var(--green)}
+.destination-info{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;padding:15px 2px 0}.destination-info p{margin:0;font-size:14px;line-height:1.6}.destination-caption{color:var(--muted)}.destination-counter{white-space:nowrap;color:var(--green);font-variant-numeric:tabular-nums}.destination-status{height:20px;line-height:20px;white-space:nowrap;margin:0;font-size:12px;color:var(--muted)}.destination-status:empty{visibility:hidden}
+@media(max-width:520px){.landmark-hint{right:10px;top:10px;padding:7px}.landmark-hint-text{max-width:90px;opacity:1;font-size:10px}.destination-dialog{width:calc(100% - 20px);padding:14px;border-radius:14px;max-height:94svh}.destination-heading{margin-bottom:12px}.destination-heading h2{font-size:25px}.destination-stage{height:calc(76svh - 160px);min-height:180px}.destination-prev,.destination-next{width:44px;height:44px}.destination-prev{left:8px}.destination-next{right:8px}.destination-info{gap:12px}.destination-info p{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.landmark-hint-text{transition:none}}
+.destination-prev:disabled,.destination-next:disabled{opacity:.35;cursor:default}
